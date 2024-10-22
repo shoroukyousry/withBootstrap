@@ -1,0 +1,77 @@
+.navbar .navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icon li {
+   text-decoration: none;
+}
+.nav-link{
+   position: relative;
+}
+
+
+/**.nav-link::after {
+    content ="";
+   position: absolute
+   width:0px;
+   height: 1px;
+   background: #fff;
+   bottom: 0px;
+   left:0px;
+   transition:width 1s;
+
+}**/
+
+
+.nav-link:hover::after{
+  width: 100%;
+}
+
+
+
+/*.abute{
+    padding-top: 50px;
+}*/
+
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(../img/img1.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.sara img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translatey(-50%);
+}
+
+.carousel-inner{
+    padding-top: 50px;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    position: static;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent:0%;
+    
+    
+}
+
+
+.carousel-indicators [data-bs-target] img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
